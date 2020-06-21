@@ -106,4 +106,4 @@ Note that depending on your system's configuration, pip may not place the `preco
 
 [^demo-credits]: The animation was created with [`termtosvg`](https://github.com/nbedos/termtosvg).
 
-[^install] Note that many of these checks require an external program (`black`, `flake8`, etc.) to be installed. precommit does not install them for you.
+[^install]: Note that many of these checks require an external program (`black`, `flake8`, etc.) to be installed. precommit does not install them for you.
