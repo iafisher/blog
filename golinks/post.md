@@ -101,7 +101,7 @@ Another way you could do it is by setting `go` as an alias to an IP address of y
 ## Prior art
 [golinks.io](https://www.golinks.io) sells go links as a managed service. It's ostensibly free for individual users, but you need a company email address to sign up (i.e., not a Gmail address). You can manage links through a web interface, track the number of visits to each link, and control access to individual links, among other things.
 
-According to [a Medium post published by golinks.io](https://medium.com/@golinks/the-full-history-of-go-links-and-the-golink-system-cbc6d2c8bb3), the go link weas created at [North Carolina State University](https://golinks.ncsu.edu) in 2009, although their implementation (as of 2020) uses a dedicated `go.nscu.edu/` subdomain rather than the more concise `go/` domain.[^go-subdomain]
+According to [a Medium post published by golinks.io](https://medium.com/@golinks/the-full-history-of-go-links-and-the-golink-system-cbc6d2c8bb3), the go link was created at [North Carolina State University](https://golinks.ncsu.edu) in 2009, although their implementation (as of 2020) uses a dedicated `go.nscu.edu/` subdomain rather than the more concise `go/` domain.[^go-subdomain]
 
 Go links were introduced to Google by [Benjamin Staffin](https://www.linkedin.com/in/benjaminstaffin), and former Googlers spread across the tech industry.
 
