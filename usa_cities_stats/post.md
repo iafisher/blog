@@ -234,7 +234,7 @@ They are all either the capitals of small states (Concord, Augusta, Charleston, 
 
 And finally, here are the most forgotten states, by percentage of players who named at least one city in the state:
 
-rank | city          | percentage
+rank | state         | percentage
 ---- | ------------- | ----------
 1    | West Virginia | 38.4%
 2    | Vermont       | 39.9%
