@@ -103,7 +103,7 @@ Another way you could do it is by setting `go` as an alias to an IP address of y
 
 According to [a Medium post published by golinks.io](https://medium.com/@golinks/the-full-history-of-go-links-and-the-golink-system-cbc6d2c8bb3), the go link was created at [North Carolina State University](https://golinks.ncsu.edu) in 2009, although their implementation (as of 2020) uses a dedicated `go.nscu.edu/` subdomain rather than the more concise `go/` domain.[^go-subdomain]
 
-Go links were introduced to Google by [Benjamin Staffin](https://www.linkedin.com/in/benjaminstaffin), and former Googlers spread across the tech industry.
+Go links were introduced to Google by [Benjamin Staffin](https://www.linkedin.com/in/benjaminstaffin), and former Googlers spread them across the tech industry.
 
 I found a couple of other personal go links projects on GitHub. Kelly Norton's [version](https://github.com/kellegous/go) is the most similar to mine. James Mills's [implementation](https://github.com/prologic/golinks) works by overriding the browser's default search engine, so you can enter `whatever` into your address bar instead of `go/whatever`. This is similar to [Facebook's internal system](http://www.bunny1.org/). Adam Yi's [version](https://github.com/adamyi/golinks) is a GCP project that binds to a custom domain, like at NCSU.
 
