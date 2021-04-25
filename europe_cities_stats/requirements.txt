@@ -14,5 +14,4 @@ requests==2.25.1
 six==1.15.0
 typing-extensions==3.7.4.3
 urllib3==1.26.3
-xcli==0.1.1
 yarl==1.6.3
