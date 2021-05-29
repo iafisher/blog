@@ -1,6 +1,8 @@
 # Type-safe generic data structures in C
 The rise of a new generation of low-level programming languages like Rust, Go and Zig has caused C and its primitive type system to fall into some disrepute. Nonetheless, with sufficient creativity it is possible to achieve surprisingly sophisticated results in C. One such result is generic data structures. This post reviews two techniques for implementing generic data structures in C: unsafely using raw memory and pointer casts, and safely using code generation through macros.[^background]
 
+Note: This post is intended for educational purposes only; use of these techniques in production C code is discouraged. For a more robust implementation, see [tylov/STC](https://github.com/tylov/STC) on GitHub.
+
 
 ## Warm-up: an `int` stack
 The generic data structure we will be implementing is a stack. As a warm-up, we'll write a regular, non-generic stack that only works for `int` values. Our minimalist stack will support only two operations, push and pop—not the most useful data structure, but enough to cover the fundamental challenges of data structure implementation.
