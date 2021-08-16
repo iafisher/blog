@@ -3,7 +3,7 @@ I write a lot of command-line programs to make my life easier. Many of these are
 
 To demonstrate the technique, let's consider a minimal example of an interactive program. Our example program simply meets and greets its users:
 
-```shell
+```
 $ python3 meetgreet.py greet
 Hello!
 
