@@ -253,4 +253,4 @@ The syntax for the debugger's mini-language is actually more complex than the sy
 
 [^disassembler]: Besides disassembling HERA binaries, the disassembler is used to implement the special HERA operation `OPCODE`, which lets you write binary code directly in HERA, e.g. `OPCODE(0b1010000100100011)`. If you want to annoy your TAs and professors you can run `hera preprocess --obfuscate` over your program before submitting it for grading to convert every operation to an opaque `OPCODE`.
 
-[^docstring]: A little trick that I'm especially fond of is that the debugger uses the docstring of the HERA operation's class as its that operation's help message.
+[^docstring]: A little trick that I'm especially fond of is that the debugger uses the docstring of the HERA operation's class as that operation's help message.
