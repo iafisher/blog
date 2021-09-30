@@ -93,6 +93,11 @@ You may wonder, is the local server even necessary? Why can't you just put the `
 
 The answer is, you could, but you would have to reload your extension every time you added a new link. Since, as we've seen, re-installing the extension takes some time, this wouldn't be practical unless you rarely or never add new links.
 
+<div class="edit">
+  <strong>Edit, September 2021:</strong>
+  On Google Chrome, reloading the extension is actually quite easy, so storing the links directly in the extension is feasible if you are a Chrome user.
+</div>
+
 If you are hell-bent on avoiding a local server, you could try using the [persistent storage](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/storage) API to store the links in the extension, but that likely won't work, either. The problem is that the `storage.get` method is [asynchronous](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/storage/StorageArea/get), but the `redirect` function must be synchronous to be able to redirect the request. MDN [claims](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onBeforeRequest) that the `onBeforeRequest` callback can return a Promise, but I've found that you can't redirect the request with a Promise, and Promises [might not work at all](https://stackoverflow.com/questions/47910732/browserextension-webrequest-onbeforerequest-return-promise) in Chrome.
 
 Another way you could do it is by setting `go` as an alias to an IP address of your choosing in your computer's [`hosts.txt`](https://en.wikipedia.org/wiki/Hosts_(file)). This would require you to either bind your local server to port 80 or spin up a server on the public Internet, but it would obviate the need for a browser extension.
