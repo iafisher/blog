@@ -117,7 +117,7 @@ This has been a whirlwind tour of the HERA language that covered the fundamental
 
 - HERA has commands for initializing the static data segment of the program with values such as string literals.
 
-A full PDF reference for the HERA language at one point existed on [Haverford's website](https://www.haverford.edu/computer-science/resources/hera) but has evidently gone missing. If you would like a copy, you can email me at iafisher@protonmail.com.
+A full PDF reference for the HERA language at one point existed on [Haverford's website](https://www.haverford.edu/computer-science/resources/hera) but has evidently gone missing. If you would like a copy, you can email me at <a href="mailto:ian@iafisher.com">ian@iafisher.com</a>.
 
 
 ## Reducing code duplication with declarative programming
