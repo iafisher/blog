@@ -77,7 +77,7 @@ The correct procedure would have been to register the converter as `lambda b: b.
 
 
 ## Conclusion
-Because I use SQLite in Python so often, I wrote my own library, [isqlite](https://github.com/iafisher/isqlite), that handles most of these issues for me, and also provides a more convenient Python API and many other useful features. You will be able to read about isqlite in next week's blog post.
+Because I use SQLite in Python so often, I wrote my own library, [isqlite](https://github.com/iafisher/isqlite), that handles most of these issues for me, and also provides a more convenient Python API and many other useful features. You can read about isqlite in [next week's blog post](https://iafisher.com/blog/2021/10/isqlite).
 
 
 [^dml]: The `sqlite3` docs [use the term](https://docs.python.org/3.8/library/sqlite3.html#controlling-transactions) "Data Modification Language", but it appears that "data manipulation language" is the [standard term](https://en.wikipedia.org/wiki/Data_manipulation_language).
