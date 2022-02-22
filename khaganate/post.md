@@ -18,7 +18,7 @@ Khaganate includes:
 - a search index
 - a travel map
 
-This post describes what Khaganate does and how I use it. Next week, I will publish a follow-up post that looks under the hood at how I built Khaganate.
+This post describes what Khaganate does and how I use it. In [next week's post](/blog/2022/02/building-khaganate), I detail the tools and technologies I used to build Khaganate.
 
 The post is illustrated with many screenshots of Khaganate's interface. I have redacted some information for the sake of my personal privacy, but otherwise the screenshots show Khaganate exactly as it appears in my daily use. If you have JavaScript enabled, you can expand the images by clicking on them.
 
