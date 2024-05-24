@@ -173,7 +173,7 @@ rank | city                       | population | popularity | expected popularit
 
 Three capitals (Luxembourg, Reykjavik, and Bern) make the list, as do several places of historical significance (Calais, Dunkerque [Dunkirk], and Ródos [Rhodes]) and tourist destinations (Pisa and Cannes). Tromsø is known for being one of the northernmost cities in the world.
 
-From surprisingly well-known cities we now turn to the "surprisingly obscure" cities—those with the lowest ratio of actual to expected popularity—in Table&nbsp;7. To limit the list to cities that were expected to have some degree of popularity, cities with an expected popularity of less than 10% have been included.
+From surprisingly well-known cities we now turn to the "surprisingly obscure" cities—those with the lowest ratio of actual to expected popularity—in Table&nbsp;7. To limit the list to cities that were expected to have some degree of popularity, cities with an expected popularity of less than 10% have been excluded.
 
 rank | city                        | population | popularity | expected popularity
 ---- | --------------------------- | ---------- | ---------- | -------------------
