@@ -1,5 +1,5 @@
 # Proposal: A type-checker for English prose
-I would like to have a command-line tool that checks the *grammatical correctness* of English-language prose. Such a tool could be run on code documentation as part of a pre-commit pipeline, on blog posts before publication, or anywhere else that the automated checking of English grammar is desirable. What I have in mind has a similar interface to [Vale](https://vale.sh/), but while Vale is a *linter* that catches *stylistic* errors, I want a *type-checker* that catches *grammatical* errors.^[Vale also catches some grammatical and spelling errors, but fundamentally it is a tool for matching style rules to text, not for comprehensive grammatical analysis.]
+I would like to have a command-line tool that checks the *grammatical correctness* of English-language prose. Such a tool could be run on code documentation as part of a pre-commit pipeline, on blog posts before publication, or anywhere else that the automated checking of English grammar is desirable. What I have in mind has a similar interface to [Vale](https://vale.sh/), but while Vale is a *linter* that catches *stylistic* errors, I want a *type-checker* that catches *grammatical* errors.[^1]
 
 I believe that the best way to write such a tool is using a rule-based approach – meaning that it will have pre-programmed and explicit knowledge of English grammar. Let's call this a *rules engine*.
 
@@ -27,3 +27,5 @@ It's possible that some or all of these objections will turn out to be valid. Bu
 At the time of writing (May 2024), I'm doing a coding retreat at [Recurse Center](https://recurse.com). I plan to set aside some time to work on this project, so expect more blog posts in the near future.
 
 If you read this post and you think I'm wrong, please send me an email at \<my name> @ \<this domain name>. I'd be happy to hear about it.
+
+[^1]: Vale also catches some grammatical and spelling errors, but fundamentally it is a tool for matching style rules to text, not for comprehensive grammatical analysis.
