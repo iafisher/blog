@@ -26,6 +26,6 @@ It's possible that some or all of these objections will turn out to be valid. Bu
 
 At the time of writing (May 2024), I'm doing a coding retreat at [Recurse Center](https://recurse.com). I plan to set aside some time to work on this project, so expect more blog posts in the near future.
 
-If you read this post and you think I'm wrong, please send me an email at \<my name> @ \<this domain name>. I'd be happy to hear about it.
+If you read this post and you think I'm wrong, please send me an email at `<my name> @ <this domain name>`. I'd be happy to hear about it.
 
 [^1]: Vale also catches some grammatical and spelling errors, but fundamentally it is a tool for matching style rules to text, not for comprehensive grammatical analysis.
