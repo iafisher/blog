@@ -47,7 +47,7 @@ Adapters and converters are registered globally, not per-database. Be warned tha
 
 ## Beware of column affinity
 <div class="edit">
-  Edit (June 2024): As of version 3.37.0, SQLite supports opt-in <a href="https://www.sqlite.org/stricttables.html">STRICT tables</a> which prevent the issues in this section..
+  Edit (June 2024): As of version 3.37.0, SQLite supports opt-in <a href="https://www.sqlite.org/stricttables.html">STRICT tables</a> which prevent the issues in this section.
 </div>
 
 SQLite lets you declare columns with any type that you want (or none at all). This can work nicely with Python's converters and adapters; for example, in one of my projects, I had columns of type `CSV` and used a converter and an adapter to transparently convert them to Python lists and back.
