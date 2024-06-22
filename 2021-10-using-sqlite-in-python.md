@@ -46,6 +46,10 @@ Adapters and converters are registered globally, not per-database. Be warned tha
 
 
 ## Beware of column affinity
+<div class="edit">
+  Edit (June 2024): As of version 3.37.0, SQLite supports opt-in <a href="https://www.sqlite.org/stricttables.html">STRICT tables</a> which prevent the issues in this section..
+</div>
+
 SQLite lets you declare columns with any type that you want (or none at all). This can work nicely with Python's converters and adapters; for example, in one of my projects, I had columns of type `CSV` and used a converter and an adapter to transparently convert them to Python lists and back.
 
 Although SQLite is flexible with typing, ultimately it must choose a [storage class](https://sqlite.org/datatype3.html#storage_classes_and_datatypes) for data, either `TEXT`, `NUMERIC`, `INTEGER`, `REAL`, or `BLOB`. Columns have a "type affinity" which determines the preferred storage class for a column through a [somewhat arbitrary set of rules](https://sqlite.org/datatype3.html#determination_of_column_affinity). This ensures that inserting a string into an `INT` column will convert the string to an integer, for compatibility with other, rigidly-typed database engines.
