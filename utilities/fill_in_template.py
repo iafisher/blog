@@ -34,8 +34,8 @@ def confirm():
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--url")
-    parser.add_argument("--title")
+    parser.add_argument("--url", required=True)
+    parser.add_argument("--title", required=True)
     args = parser.parse_args()
 
     main(title=args.title, url=args.url)
